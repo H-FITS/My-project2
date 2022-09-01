@@ -16,10 +16,7 @@ public class chemen2 : MonoBehaviour
     public Renderer e;
     public Light f;
 
-    void Start()
-    {
-        Debug.Log("hello");
-    }
+    void Start() { }
 
     void Update()
     {
