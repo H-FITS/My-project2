@@ -1,4 +1,3 @@
-using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,7 +15,10 @@ public class chemen2 : MonoBehaviour
     public Renderer e;
     public Light f;
 
-    void Start() { }
+    void Start()
+    {
+        Debug.Log("111");
+    }
 
     void Update()
     {
